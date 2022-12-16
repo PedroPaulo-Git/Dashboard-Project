@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    
+}
+.background{
+    position: absolute;
+    width: 74%;
+    height: 100%;
+}
+.logo_login{
+    right: 0;
+    position:absolute;
+    background-color: rgb(255, 255, 255);
+    padding-top: 13%;
+    padding-bottom: 203px;
+    padding-left: 15px;   
+
+}
+#log{
+    padding-right: 10px;
+    width: 350px;
+}
+
+#icon_user{
+    width: 100px;
+    height: 100px;
+   
+}
+.container_login{
+    margin-top: 5%;
+    border-radius: 20px;
+    position:absolute;
+    padding: 2%;
+    padding-top: 2%;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 420px;
+
+   
+}
+input{
+    margin-bottom:15px;
+    width: 98%;
+
+    border: 0;
+    border-bottom:2px solid rgb(233,90,12);
+    background-color: transparent;
+    outline: none;
+    padding-top: 15px;
+    transition: all .3s ease-out;
+}
+label ,input:focus{
+border-bottom:1x solid rgb(233,90,12);
+font-size: 14px;
+margin-bottom: 5%;
+margin-top: 3%;
+}
+
+
+
+label{
+    color: rgb(82, 79, 79);
+    padding-bottom: 50px;
+    pointer-events: none;
+    position:relative;
+    top:0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+h1,.imagem_icon{
+text-align: center;
+
+}
+h1{
+    color: rgb(80, 80, 80);
+    padding-top: 10px;
+    font-size: 35px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+a{
+    width: 50%;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:sans-serif;
+    color: white;
+    background-color: rgb(233,90,12);
+    display: flex;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom:10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+    
+
+}
+strong{
+    
+}
+
+a:hover{
+    background-color:rgb(207, 75, 4) ;
+    font-size: 20px;
+    transition: all .3s ease-out;
+}

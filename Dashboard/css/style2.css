@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topodash{ 
+     
+    background-color: rgb(175, 172, 172);
+    width: 100%;
+}
+#log{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 150px;
+}
+.hub{ 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left:42%;
+    height: 140px;
+    max-width: 730px;
+
+}
+a{  
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-left: 8px;
+}
+i{
+    
+    margin-top:60px;
+    width: 140px;
+    margin-left: 80px;
+    
+}
+i.fa-cogs{
+    margin-left: 70px;
+    margin-right: 20px;
+}
+.toposerviço,.topostats,.topohome{
+    background-color: rgb(140, 141, 141);
+    margin-right: 80px;
+   
+}
+.toposerviço:hover,.topohome:hover{
+    background-color: rgb(95, 94, 94);
+    height: 142px;
+    transition: all .4s ease-in;
+
+}
+
+
+
+
+.a1img{
+    width: 70%;
+    padding-top: 20px;
+   
+    
+
+}
+
+.vendasa1{
+    font-size: 20px;
+    font-family:sans-serif;
+}
+.vendasaa1{
+    padding: 15px;
+    
+}
+#a1btn{
+    position: relative;
+    margin-top: 40px;
+    font-size:20px;
+    border: hidden;
+    border-radius:30px;
+    width:200px;
+    height:50px;
+}
+.a1{
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(163, 163, 163);
+    width: 300px;
+    height: 530px; 
+    text-align: center;
+    justify-content: center;
+    
+}
+.a2{
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    position:relative;
+    margin-left: 28%;
+    bottom:460px;
+    background-color: rgb(117, 117, 117);
+    width: 600px;
+    height:390px; 
+}
+
+.a2inf{
+    position: absolute;
+    left: 0;
+   
+}
+.aa2{
+display: block;
+padding-top:50px;
+padding-left: 10px;
+max-width: 80px;
+}
+.blocks{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  margin-left:30px ;
+  padding-top: 25px;
+}
+.block1,.block2,.block3{
+    display:inline;
+    background-color: rgb(241, 53, 6);
+    padding-left: 80px;
+    margin-left: 80px;
+    
+
+}
+.block1{
+    padding-top: 100px;
+}
+
+.block2{
+    padding-top: 220px;
+}
+.block3{
+    padding-top: 20px;
+}
+.titulovendas {
+    padding-top: 28px;
+}
+
+.a3{
+    position:absolute;
+    right: 0;
+    top: 21%;
+    margin-right: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(163, 163, 163);
+    width: 300px;
+    height: 540px; 
+    text-align: center;
+    justify-content: center;
+}
+.titulomap{
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.aatop{
+    color: rgb(255, 119, 29);
+    font-size: 20px;
+    width: 100px;
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.vendasinf{
+    text-align: center;
+    padding-left: 100px;
+    max-width: 120px;
+    padding-top: 10px;
+}
+.vendasmap{
+   
+}
